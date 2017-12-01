@@ -1,0 +1,49 @@
+
+
+body {
+  margin: auto;
+  background: url("image.jpg");
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  background-color: lightslategray;
+}
+
+td {
+  padding: 0;
+  margin: 0；
+}
+
+td:hover {
+  transition: all 0.5s;
+}
+
+div#time {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: red;
+  text-align: center;
+  font-size: 40pt;
+  border-radius: 50%;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 140px;
+  height: 40px;
+  font-size: 16pt;
+  background-color: blue;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
